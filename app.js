@@ -21,7 +21,6 @@ function addTodo(event){
     //create li
     const newTodo = document.createElement("li");
     newTodo.innerText = todoInput.value;
-    //todoInput.value="";
     newTodo.classList.add('todo-item');
     todoDiv.appendChild(newTodo);
 
@@ -45,6 +44,6 @@ function addTodo(event){
     todoList.appendChild(todoDiv);
 
     //Clear input value
-    todoInput.value="";
+    todoInput.value = "";
 
 }
